@@ -26,7 +26,8 @@
 
 .actions {
   display: flex;
-  gap: 8px;
+  flex-direction: row;
+  gap: var(--space-16);
 }
 
 .heading {
